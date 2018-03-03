@@ -1,0 +1,26 @@
+name       : libsysstat
+version    : 0.4.0
+release    : 1
+source     :
+    - https://github.com/lxde/libsysstat/archive/0.4.0.tar.gz : 0d9f7cf2069ae75642a1439e0d5afc1afebd561f93cc56e6cd9bee328426de35
+license    : LGPL-2.1
+component  : system.utils
+summary    : Library used to query system info and statistics.
+description: |
+    Library used to query system information like CPU and memory usage or network traffic. Conceptually, it is roughly similar to libstatgrab.
+builddeps  :
+    - lxqt-build-tools-devel
+    - pkgconfig(Qt5Core)
+setup      : |
+    mkdir build
+    pushd build
+    %cmake ..
+    popd
+build      : |
+    pushd build
+    %make
+    popd
+install    : |
+    pushd build
+    %make_install
+    popd

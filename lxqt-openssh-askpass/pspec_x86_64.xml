@@ -1,0 +1,34 @@
+<PISI>
+    <Source>
+        <Name>lxqt-openssh-askpass</Name>
+        <Packager>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Packager>
+        <License>LGPL-2.1</License>
+        <PartOf>desktop.lxqt.core</PartOf>
+        <Summary xml:lang="en">GUI to query passwords on behalf of SSH agents.</Summary>
+        <Description xml:lang="en">lxqt-openssh-askpass is a GUI to query credentials on behalf of other programs. As indicated by its name it&apos;s primarily targeted at ssh-agent, the SSH agent of OpenSSH, but it works with other applications like e. g. EncFS as well.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>lxqt-openssh-askpass</Name>
+        <Summary xml:lang="en">GUI to query passwords on behalf of SSH agents.</Summary>
+        <Description xml:lang="en">lxqt-openssh-askpass is a GUI to query credentials on behalf of other programs. As indicated by its name it&apos;s primarily targeted at ssh-agent, the SSH agent of OpenSSH, but it works with other applications like e. g. EncFS as well.
+</Description>
+        <PartOf>desktop.lxqt.core</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-03</Date>
+            <Version>0.12.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

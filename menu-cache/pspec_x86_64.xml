@@ -1,0 +1,52 @@
+<PISI>
+    <Source>
+        <Name>menu-cache</Name>
+        <Packager>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Packager>
+        <License>LGPL-2.1</License>
+        <PartOf>programming.library</PartOf>
+        <Summary xml:lang="en">Library used to read freedesktop.org menus.</Summary>
+        <Description xml:lang="en">Library used to read freedesktop.org menus.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>menu-cache</Name>
+        <Summary xml:lang="en">Library used to read freedesktop.org menus.</Summary>
+        <Description xml:lang="en">Library used to read freedesktop.org menus.
+</Description>
+        <PartOf>programming.library</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/lib*.so.*</Path>
+            <Path fileType="library">/usr/lib64/menu-cache/menu-cache/menu-cache-gen</Path>
+            <Path fileType="library">/usr/lib64/menu-cache/menu-cache/menu-cached</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>menu-cache-devel</Name>
+        <Summary xml:lang="en">Development files for menu-cache</Summary>
+        <Description xml:lang="en">Library used to read freedesktop.org menus.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">menu-cache</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/</Path>
+            <Path fileType="library">/usr/lib64/lib*.a</Path>
+            <Path fileType="library">/usr/lib64/lib*.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-03</Date>
+            <Version>1.1.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

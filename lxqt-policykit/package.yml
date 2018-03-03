@@ -1,0 +1,31 @@
+name       : lxqt-policykit
+version    : 0.12.0
+release    : 1
+source     :
+    - https://github.com/lxde/lxqt-policykit/archive/0.12.0.tar.gz : af4ae5acce6b4ea4729eaaec4951baa714a1c09d43ac0a73e535017da7e6bb23
+license    : LGPL-2.1
+component  : desktop.lxqt.core
+summary    : The LXQt PolicyKit agent.
+description: |
+    The polkit authentification agent of LXQt.
+builddeps  :
+    - kwindowsystem-devel
+    - lxqt-build-tools-devel
+    - pkgconfig(gl)
+    - pkgconfig(lxqt)
+    - pkgconfig(polkit-qt5-1)
+    - pkgconfig(Qt5DBus)
+    - pkgconfig(Qt5UiTools)
+setup      : |
+    mkdir build
+    pushd build
+    %cmake -DPULL_TRANSLATIONS=false ..
+    popd
+build      : |
+    pushd build
+    %make
+    popd
+install    : |
+    pushd build
+    %make_install
+    popd

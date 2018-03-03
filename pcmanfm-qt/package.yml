@@ -1,0 +1,33 @@
+name       : pcmanfm-qt
+version    : 0.12.0
+release    : 1
+source     :
+    - https://github.com/lxde/pcmanfm-qt/archive/0.12.0.tar.gz : c933b21d5f59a933453f8d2f9a97c9711cf02eb8f8713239b7aff7dfcb5a070e
+license    : GPL-2.0
+component  : desktop.lxqt.core
+summary    : File manager and desktop icon manager (Qt port of PCManFM and libfm)
+description: |
+    PCManFM-Qt is the Qt port of PCManFM, the file manager of LXDE.
+builddeps  :
+    - lxqt-build-tools-devel
+    - pkgconfig(gl)
+    - pkgconfig(libexif)
+    - pkgconfig(libfm)
+    - pkgconfig(libfm-qt)
+    - pkgconfig(libmenu-cache)
+    - pkgconfig(Qt5UiTools)
+    - pkgconfig(Qt5Widgets)
+    - pkgconfig(Qt5X11Extras)
+setup      : |
+    mkdir build
+    pushd build
+    %cmake -DPULL_TRANSLATIONS=false ..
+    popd
+build      : |
+    pushd build
+    %make
+    popd
+install    : |
+    pushd build
+    %make_install
+    popd

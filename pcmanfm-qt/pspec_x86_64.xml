@@ -1,0 +1,39 @@
+<PISI>
+    <Source>
+        <Name>pcmanfm-qt</Name>
+        <Packager>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>desktop.lxqt.core</PartOf>
+        <Summary xml:lang="en">File manager and desktop icon manager (Qt port of PCManFM and libfm)</Summary>
+        <Description xml:lang="en">PCManFM-Qt is the Qt port of PCManFM, the file manager of LXDE.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>pcmanfm-qt</Name>
+        <Summary xml:lang="en">File manager and desktop icon manager (Qt port of PCManFM and libfm)</Summary>
+        <Description xml:lang="en">PCManFM-Qt is the Qt port of PCManFM, the file manager of LXDE.
+</Description>
+        <PartOf>desktop.lxqt.core</PartOf>
+        <Files>
+            <Path fileType="config">/etc/xdg/autostart/lxqt-desktop.desktop</Path>
+            <Path fileType="config">/etc/xdg/pcmanfm-qt/lxqt/settings.conf</Path>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications/pcmanfm-qt-desktop-pref.desktop</Path>
+            <Path fileType="data">/usr/share/applications/pcmanfm-qt.desktop</Path>
+            <Path fileType="man">/usr/share/man</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-03</Date>
+            <Version>0.12.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

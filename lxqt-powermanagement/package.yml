@@ -1,0 +1,32 @@
+name       : lxqt-powermanagement
+version    : 0.12.0
+release    : 1
+source     :
+    - https://github.com/lxde/lxqt-powermanagement/archive/0.12.0.tar.gz : c3e7e52502259111dd401ba3c18265f759e7c5b5942f8eb2859c73c2081304da
+license    : LGPL-2.1
+component  : desktop.lxqt.core
+summary    : Power management module for LXQt.
+description: |
+    Tools to monitor power management events and optionally trigger actions like e. g. shut down a system when laptop batteries are low on power.
+builddeps  :
+    - kidletime-devel
+    - kwindowsystem-devel
+    - lxqt-build-tools-devel
+    - pkgconfig(gl)
+    - pkgconfig(lxqt)
+    - pkgconfig(Qt5DBus)
+    - pkgconfig(Qt5UiTools)
+    - solid-devel
+setup      : |
+    mkdir build
+    pushd build
+    %cmake -DPULL_TRANSLATIONS=false ..
+    popd
+build      : |
+    pushd build
+    %make
+    popd
+install    : |
+    pushd build
+    %make_install
+    popd

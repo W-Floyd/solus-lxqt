@@ -1,0 +1,5 @@
+*.eopkg
+common/
+Makefile
+Makefile.common
+Makefile.iso

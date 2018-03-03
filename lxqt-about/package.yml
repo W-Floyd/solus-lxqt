@@ -1,0 +1,29 @@
+name       : lxqt-about
+version    : 0.12.0
+release    : 1
+source     :
+    - https://github.com/lxde/lxqt-about/archive/0.12.0.tar.gz : 86dbd17356c04a349af4cdc00347281d3d91ecf9001726c7badf79df36862188
+license    : LGPL-2.1
+component  : desktop.lxqt.core
+summary    : Dialogue window providing information about LXQt and the system it's running on.
+description: |
+    Dialogue window providing information about LXQt and the system it's running on.
+builddeps  :
+    - kwindowsystem-devel
+    - lxqt-build-tools-devel
+    - pkgconfig(gl)
+    - pkgconfig(lxqt)
+    - pkgconfig(Qt5UiTools)
+setup      : |
+    mkdir build
+    pushd build
+    %cmake -DPULL_TRANSLATIONS=false ..
+    popd
+build      : |
+    pushd build
+    %make
+    popd
+install    : |
+    pushd build
+    %make_install
+    popd

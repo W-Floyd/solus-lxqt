@@ -1,0 +1,16 @@
+name       : libstatgrab
+version    : 0.91
+release    : 1
+source     :
+    - http://www.mirrorservice.org/sites/ftp.i-scream.org/pub/i-scream/libstatgrab/libstatgrab-0.91.tar.gz : 03e9328e4857c2c9dcc1b0347724ae4cd741a72ee11acc991784e8ef45b7f1ab
+license    : LGPL-2.0
+component  : programming.library
+summary    : Library for accessing information from the system for statistical purposes
+description: |
+    libstatgrab is a library for accessing information from the system for statistical purposes. It could be used for software that monitors the system for alerting or graphing purposes.
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install

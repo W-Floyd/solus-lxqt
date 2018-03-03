@@ -1,0 +1,34 @@
+name       : lxqt-qtplugin
+version    : 0.12.0
+release    : 1
+source     :
+    - https://github.com/lxde/lxqt-qtplugin/archive/0.12.0.tar.gz : 2bbcf52e3ffcd03c9a55051d38df6dc16ec2f992d86b9f540262940e1bde36c6
+license    : LGPL-2.1
+component  : desktop.lxqt.core
+summary    : LXQt Qt platform integration plugin.
+description: |
+    With this plugin, all Qt-based programs can adopt settings of LXQt, such as the icon theme.
+builddeps  :
+    - kwindowsystem-devel
+    - lxqt-build-tools-devel
+    - pkgconfig(dbusmenu-qt5)
+    - pkgconfig(gl)
+    - pkgconfig(libexif)
+    - pkgconfig(libfm-qt)
+    - pkgconfig(libmenu-cache)
+    - pkgconfig(lxqt)
+    - pkgconfig(Qt5DBus)
+    - pkgconfig(Qt5UiTools)
+setup      : |
+    mkdir build
+    pushd build
+    %cmake -DPULL_TRANSLATIONS=false ..
+    popd
+build      : |
+    pushd build
+    %make
+    popd
+install    : |
+    pushd build
+    %make_install
+    popd

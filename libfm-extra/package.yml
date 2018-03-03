@@ -1,0 +1,18 @@
+name       : libfm-extra
+version    : 1.2.5
+release    : 1
+source     :
+    - https://github.com/lxde/libfm/archive/1.2.5.tar.gz : 6b51b6ac65cc6da4d11febb29e497b97c3a5591941639ddc4757fcab451f64ba
+license    : GPL-2.0
+component  : desktop.lxqt.core
+summary    : Core library of PCManFM file manager
+description: |
+    Core library of PCManFM file manager
+builddeps  :
+    - gtk-doc
+setup      : |
+    %autogen --with-extra-only --with-gtk=no
+build      : |
+    %make
+install    : |
+    %make_install

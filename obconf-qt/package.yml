@@ -1,0 +1,32 @@
+name       : obconf-qt
+version    : 0.12.0
+release    : 1
+source     :
+    - https://github.com/lxde/obconf-qt/archive/0.12.0.tar.gz : 8076813242d56c5f0cfa625d0f9bd68e2490b456b50399403d4f319544d119ad
+license    : GPL-2.0
+component  : desktop.lxqt.core
+summary    : The Qt port of obconf.
+description: |
+    The Qt port of obconf, a configuration editor for window manager OpenBox.
+builddeps  :
+    - kwindowsystem-devel
+    - lxqt-build-tools-devel
+    - pkgconfig(gl)
+    - pkgconfig(lxqt)
+    - pkgconfig(obrender-3.5)
+    - pkgconfig(obt-3.5)
+    - pkgconfig(Qt5UiTools)
+    - pkgconfig(Qt5Widgets)
+setup      : |
+    mkdir build
+    pushd build
+    %cmake -DPULL_TRANSLATIONS=false ..
+    popd
+build      : |
+    pushd build
+    %make
+    popd
+install    : |
+    pushd build
+    %make_install
+    popd

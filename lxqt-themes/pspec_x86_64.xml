@@ -1,0 +1,131 @@
+<PISI>
+    <Source>
+        <Name>lxqt-themes</Name>
+        <Packager>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Packager>
+        <License>LGPL-2.1</License>
+        <PartOf>desktop.lxqt</PartOf>
+        <Summary xml:lang="en">Themes, graphics and icons for LXQt.</Summary>
+        <Description xml:lang="en">Themes, graphics and icons for LXQt
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>lxqt-themes</Name>
+        <Summary xml:lang="en">Themes, graphics and icons for LXQt.</Summary>
+        <Description xml:lang="en">Themes, graphics and icons for LXQt
+</Description>
+        <PartOf>desktop.lxqt</PartOf>
+        <Files>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/lxqt.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/places/start-here-lxqt.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/graphics/README</Path>
+            <Path fileType="data">/usr/share/lxqt/graphics/helix.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/graphics/helix_1120.png</Path>
+            <Path fileType="data">/usr/share/lxqt/graphics/helix_150.png</Path>
+            <Path fileType="data">/usr/share/lxqt/graphics/helix_60.png</Path>
+            <Path fileType="data">/usr/share/lxqt/graphics/helix_lxqt.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/graphics/lxqt_logo.png</Path>
+            <Path fileType="data">/usr/share/lxqt/graphics/lxqt_logo_doxygen.png</Path>
+            <Path fileType="data">/usr/share/lxqt/graphics/spacer-dark-dots.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/graphics/spacer-dark-line.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/graphics/spacer-light-dots.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/graphics/spacer-light-line.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/ambiance/Butterfly-Kenneth-Wimer.jpg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/ambiance/arrow-left.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/ambiance/arrow-right.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/ambiance/lxqt-notificationd.qss</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/ambiance/lxqt-notificationd/cancel.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/ambiance/lxqt-panel.qss</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/ambiance/lxqt-runner.qss</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/ambiance/lxqt-runner/clear.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/ambiance/lxqt-runner/navigation-menu.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/ambiance/mainmenu.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/ambiance/preview.png</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/ambiance/spacer-plugin/spacer-dots.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/ambiance/spacer-plugin/spacer-line.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/ambiance/wallpaper.cfg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/dark/arrow-right.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/dark/calendar-popup/left-arrow.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/dark/calendar-popup/right-arrow.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/dark/checked.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/dark/lxqt-notificationd.qss</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/dark/lxqt-notificationd/cancel.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/dark/lxqt-panel.qss</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/dark/lxqt-runner.qss</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/dark/lxqt-runner/close.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/dark/lxqt-runner/down-arrow.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/dark/mainmenu.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/dark/preview.png</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/dark/spacer-plugin/spacer-dots.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/dark/spacer-plugin/spacer-line.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/dark/unchecked.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/dark/wallpaper.cfg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/dark/wallpaper.png</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/frost/arrow-right.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/frost/calendar-popup/left-arrow.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/frost/calendar-popup/right-arrow.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/frost/color-picker.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/frost/debug.png</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/frost/lxqt-notificationd.qss</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/frost/lxqt-origami-light.png</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/frost/lxqt-panel.qss</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/frost/lxqt-runner.qss</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/frost/lxqt-runner/close.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/frost/lxqt-runner/down-arrow.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/frost/mainmenu.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/frost/preview.png</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/frost/spacer-plugin/spacer-dots.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/frost/spacer-plugin/spacer-line.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/frost/volume-plugin/mixer.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/frost/wallpaper.cfg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/kde-plasma/kde-plasma.png</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/kde-plasma/left-arrow.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/kde-plasma/lxqt-notificationd.qss</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/kde-plasma/lxqt-notificationd/window-close.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/kde-plasma/lxqt-panel.qss</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/kde-plasma/lxqt-runner.qss</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/kde-plasma/lxqt-runner/application-menu.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/kde-plasma/lxqt-runner/close-32x32.png</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/kde-plasma/lxqt-runner/close-48x48.png</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/kde-plasma/lxqt-runner/window-close.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/kde-plasma/mainmenu.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/kde-plasma/preview.png</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/kde-plasma/right-arrow.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/kde-plasma/spacer-plugin/spacer-dots.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/kde-plasma/spacer-plugin/spacer-line.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/kde-plasma/wallpaper.cfg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/light/96640-simple_blue_widescreen.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/light/lxqt-lightdm-greeter/dropdown.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/light/lxqt-lightdm-greeter/leaveIcon.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/light/lxqt-notificationd.qss</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/light/lxqt-panel.qss</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/light/lxqt-panel/plugin-handle-horizontal.gif</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/light/lxqt-panel/plugin-handle-vertical.gif</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/light/lxqt-runner.qss</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/light/lxqt-runner/close-32x32.png</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/light/lxqt-runner/close-48x48.png</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/light/mainmenu.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/light/preview.png</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/light/simple_blue_widescreen.png</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/light/spacer-plugin/spacer-dots.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/light/spacer-plugin/spacer-line.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/light/wallpaper.cfg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/system/lxqt-panel.qss</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/system/preview.png</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/system/spacer-plugin/spacer-dots.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/themes/system/spacer-plugin/spacer-line.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-03</Date>
+            <Version>0.12.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

@@ -1,0 +1,30 @@
+name       : lxqt-globalkeys
+version    : 0.12.0
+release    : 1
+source     :
+    - https://github.com/lxde/lxqt-globalkeys/archive/0.12.0.tar.gz : cd4322fc4e38dda4d1a205937311529be284a8035b3f254770905117c574f200
+license    : LGPL-2.1
+component  : desktop.lxqt.core
+summary    : Daemon used to register global keyboard shortcuts
+description: |
+    Tools to set global keyboard shortcuts in LXQt sessions, that is shortcuts which apply to the LXQt session as a whole and are not limited to distinct applications.
+builddeps  :
+    - kwindowsystem-devel
+    - lxqt-build-tools-devel
+    - pkgconfig(gl)
+    - pkgconfig(lxqt)
+    - pkgconfig(Qt5UiTools)
+    - pkgconfig(Qt5Widgets)
+setup      : |
+    mkdir build
+    pushd build
+    %cmake -DPULL_TRANSLATIONS=false ..
+    popd
+build      : |
+    pushd build
+    %make
+    popd
+install    : |
+    pushd build
+    %make_install
+    popd

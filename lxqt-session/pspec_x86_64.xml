@@ -1,0 +1,50 @@
+<PISI>
+    <Source>
+        <Name>lxqt-session</Name>
+        <Packager>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Packager>
+        <License>LGPL-2.1</License>
+        <PartOf>desktop.lxqt.core</PartOf>
+        <Summary xml:lang="en">The LXQt session manager.</Summary>
+        <Description xml:lang="en">Provides tools to handle LXQt sessions.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>lxqt-session</Name>
+        <Summary xml:lang="en">The LXQt session manager.</Summary>
+        <Description xml:lang="en">Provides tools to handle LXQt sessions.
+</Description>
+        <PartOf>desktop.lxqt.core</PartOf>
+        <Files>
+            <Path fileType="config">/etc/xdg/autostart/lxqt-xscreensaver-autostart.desktop</Path>
+            <Path fileType="config">/etc/xdg/lxqt/lxqt.conf</Path>
+            <Path fileType="config">/etc/xdg/lxqt/session.conf</Path>
+            <Path fileType="config">/etc/xdg/lxqt/windowmanagers.conf</Path>
+            <Path fileType="config">/etc/xdg/openbox/lxqt-rc.xml</Path>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications/lxqt-config-session.desktop</Path>
+            <Path fileType="data">/usr/share/applications/lxqt-hibernate.desktop</Path>
+            <Path fileType="data">/usr/share/applications/lxqt-leave.desktop</Path>
+            <Path fileType="data">/usr/share/applications/lxqt-lockscreen.desktop</Path>
+            <Path fileType="data">/usr/share/applications/lxqt-logout.desktop</Path>
+            <Path fileType="data">/usr/share/applications/lxqt-reboot.desktop</Path>
+            <Path fileType="data">/usr/share/applications/lxqt-shutdown.desktop</Path>
+            <Path fileType="data">/usr/share/applications/lxqt-suspend.desktop</Path>
+            <Path fileType="data">/usr/share/kdm/sessions/lxqt.desktop</Path>
+            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="data">/usr/share/xsessions/lxqt.desktop</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-03</Date>
+            <Version>0.12.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

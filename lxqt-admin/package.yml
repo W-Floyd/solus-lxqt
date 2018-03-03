@@ -1,0 +1,30 @@
+name       : lxqt-admin
+version    : 0.12.0
+release    : 1
+source     :
+    - https://github.com/lxde/lxqt-admin/archive/0.12.0.tar.gz : 7a64c0e7ebb8b47538918915ac5261282ed2b4f02b53346296bf765c43811aac
+license    : LGPL-2.1
+component  : desktop.lxqt.core
+summary    : LXQt system administration tool.
+description: |
+    LXQt system administration tool
+builddeps  :
+    - kwindowsystem-devel
+    - lxqt-build-tools-devel
+    - pkgconfig(gl)
+    - pkgconfig(lxqt)
+    - pkgconfig(Qt5UiTools)
+    - pkgconfig(Qt5Widgets)
+setup      : |
+    mkdir build
+    pushd build
+    %cmake -DPULL_TRANSLATIONS=false ..
+    popd
+build      : |
+    pushd build
+    %make
+    popd
+install    : |
+    pushd build
+    %make_install
+    popd

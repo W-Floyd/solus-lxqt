@@ -1,0 +1,20 @@
+name       : menu-cache
+version    : 1.1.0
+release    : 1
+source     :
+    - https://github.com/lxde/menu-cache/archive/1.1.0.tar.gz : 990857aa61a2894730e3749b6bc0f905967eed0c21aa2b62a7694007bdccbe8d
+license    : LGPL-2.1
+component  : programming.library
+summary    : Library used to read freedesktop.org menus.
+description: |
+    Library used to read freedesktop.org menus.
+builddeps  :
+    - gtk-doc
+    - pkgconfig(glib-2.0)
+    - pkgconfig(libfm-extra)
+setup      : |
+    %autogen
+build      : |
+    %make
+install    : |
+    %make_install

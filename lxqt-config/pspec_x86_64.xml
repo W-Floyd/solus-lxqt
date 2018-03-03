@@ -1,0 +1,45 @@
+<PISI>
+    <Source>
+        <Name>lxqt-config</Name>
+        <Packager>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Packager>
+        <License>LGPL-2.1</License>
+        <PartOf>desktop.lxqt.core</PartOf>
+        <Summary xml:lang="en">Tools to configure LXQt and the underlying operating system.</Summary>
+        <Description xml:lang="en">Tools to configure LXQt and the underlying operating system.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>lxqt-config</Name>
+        <Summary xml:lang="en">Tools to configure LXQt and the underlying operating system.</Summary>
+        <Description xml:lang="en">Tools to configure LXQt and the underlying operating system.
+</Description>
+        <PartOf>desktop.lxqt.core</PartOf>
+        <Files>
+            <Path fileType="config">/etc/xdg/menus/lxqt-config.menu</Path>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib64/lxqt-config/liblxqt-config-cursor.so</Path>
+            <Path fileType="data">/usr/share/applications/lxqt-config-appearance.desktop</Path>
+            <Path fileType="data">/usr/share/applications/lxqt-config-brightness.desktop</Path>
+            <Path fileType="data">/usr/share/applications/lxqt-config-file-associations.desktop</Path>
+            <Path fileType="data">/usr/share/applications/lxqt-config-input.desktop</Path>
+            <Path fileType="data">/usr/share/applications/lxqt-config-locale.desktop</Path>
+            <Path fileType="data">/usr/share/applications/lxqt-config-monitor.desktop</Path>
+            <Path fileType="data">/usr/share/applications/lxqt-config.desktop</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/brightnesssettings.svg</Path>
+            <Path fileType="data">/usr/share/lxqt/icons/monitor.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-03</Date>
+            <Version>0.12.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

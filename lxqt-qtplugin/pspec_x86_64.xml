@@ -1,0 +1,34 @@
+<PISI>
+    <Source>
+        <Name>lxqt-qtplugin</Name>
+        <Packager>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Packager>
+        <License>LGPL-2.1</License>
+        <PartOf>desktop.lxqt.core</PartOf>
+        <Summary xml:lang="en">LXQt Qt platform integration plugin.</Summary>
+        <Description xml:lang="en">With this plugin, all Qt-based programs can adopt settings of LXQt, such as the icon theme.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>lxqt-qtplugin</Name>
+        <Summary xml:lang="en">LXQt Qt platform integration plugin.</Summary>
+        <Description xml:lang="en">With this plugin, all Qt-based programs can adopt settings of LXQt, such as the icon theme.
+</Description>
+        <PartOf>desktop.lxqt.core</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/qt5/plugins/platformthemes/libqtlxqt.so</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-03</Date>
+            <Version>0.12.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

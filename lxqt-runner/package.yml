@@ -1,0 +1,33 @@
+name       : lxqt-runner
+version    : 0.12.0
+release    : 1
+source     :
+    - https://github.com/lxde/lxqt-runner/archive/0.12.0.tar.gz : 5663f9ccfe0a405815be220576ec882e3cbab032632cc69d47f66ba9b7b289d9
+license    : LGPL-2.1
+component  : desktop.lxqt.core
+summary    : Tool used to launch programs quickly by typing their names.
+description: |
+    Provides a GUI that comes up on the desktop and allows for launching applications or shutting down the system.
+builddeps  :
+    - kwindowsystem-devel
+    - lxqt-build-tools-devel
+    - pkgconfig(gl)
+    - pkgconfig(libmenu-cache)
+    - pkgconfig(lxqt)
+    - pkgconfig(lxqt-globalkeys)
+    - pkgconfig(muparser)
+    - pkgconfig(Qt5UiTools)
+    - pkgconfig(Qt5Widgets)
+setup      : |
+    mkdir build
+    pushd build
+    %cmake -DPULL_TRANSLATIONS=false ..
+    popd
+build      : |
+    pushd build
+    %make
+    popd
+install    : |
+    pushd build
+    %make_install
+    popd
