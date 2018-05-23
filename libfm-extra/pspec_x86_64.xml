@@ -29,7 +29,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="1">libfm-extra</Dependency>
+            <Dependency release="2">libfm-extra</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
@@ -39,9 +39,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-03-03</Date>
-            <Version>1.2.5</Version>
+        <Update release="2">
+            <Date>2018-05-23</Date>
+            <Version>1.3.0.2</Version>
             <Comment>Packaging update</Comment>
             <Name>William Floyd</Name>
             <Email>william.png2000@gmail.com</Email>
