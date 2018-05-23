@@ -1,8 +1,8 @@
 name       : libfm-qt
-version    : 0.12.0
-release    : 1
+version    : 0.13.0
+release    : 2
 source     :
-    - https://github.com/lxde/libfm-qt/archive/0.12.0.tar.gz : e1939338596b8bdd863d4e344f2583bc7a2c529bcad47512e1c4db7316f0d6fe
+    - git|https://github.com/lxde/libfm-qt.git : 0.13.0
 license    : LGPL-2.1
 component  : desktop.lxqt.core
 summary    : Core library of PCManFM-Qt (Qt binding for libfm).
