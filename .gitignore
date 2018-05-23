@@ -1,5 +1,4 @@
+/common/
 *.eopkg
-common/
-Makefile
-Makefile.common
-Makefile.iso
+/graph.dot
+*.tar.gz
