@@ -67,6 +67,7 @@ libfm-gtk.so.4:fm_eject_volume
 libfm-gtk.so.4:fm_empty_trash
 libfm-gtk.so.4:fm_file_menu_destroy
 libfm-gtk.so.4:fm_file_menu_get_action_group
+libfm-gtk.so.4:fm_file_menu_get_cwd
 libfm-gtk.so.4:fm_file_menu_get_file_info_list
 libfm-gtk.so.4:fm_file_menu_get_menu
 libfm-gtk.so.4:fm_file_menu_get_ui
@@ -247,6 +248,17 @@ libfm-gtk.so.4:fm_unset_busy_cursor
 libfm-gtk.so.4:fm_untrash_files
 libfm-gtk.so.4:fm_widget_menu_fix_tooltips
 libfm-gtk.so.4:fm_yes_no
+libfm.so.4:fm_action_cache_get_type
+libfm.so.4:fm_action_cache_new
+libfm.so.4:fm_action_get_for_context
+libfm.so.4:fm_action_get_for_location
+libfm.so.4:fm_action_get_for_toolbar
+libfm.so.4:fm_action_get_startup_wm_class
+libfm.so.4:fm_action_get_suggested_shortcut
+libfm.so.4:fm_action_get_toolbar_label
+libfm.so.4:fm_action_get_type
+libfm.so.4:fm_action_menu_get_children
+libfm.so.4:fm_action_menu_get_type
 libfm.so.4:fm_app_command_parse
 libfm.so.4:fm_app_info_create_from_commandline
 libfm.so.4:fm_app_info_launch

@@ -1,8 +1,8 @@
 name       : libfm
-version    : 1.2.5
-release    : 1
+version    : 1.3.0.2
+release    : 2
 source     :
-    - https://github.com/lxde/libfm/archive/1.2.5.tar.gz : 6b51b6ac65cc6da4d11febb29e497b97c3a5591941639ddc4757fcab451f64ba
+    - git|https://github.com/lxde/libfm.git : 1.3.0.2
 license    : GPL-2.0
 component  : desktop.lxqt.core
 summary    : Core library of PCManFM file manager
@@ -17,7 +17,6 @@ builddeps  :
     - pkgconfig(pango)
     - vala
 setup      : |
-    %patch -p1 < $pkgfiles/vala-fix.patch
     %autogen
 build      : |
     %make
