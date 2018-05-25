@@ -44,3 +44,7 @@ lxqt-themes lxqt-build-tools-devel
 menu-cache libfm-extra-devel
 obconf-qt liblxqt-devel
 obconf-qt lxqt-build-tools-devel
+pcmanfm-qt libfm-devel
+pcmanfm-qt libfm-qt-devel
+pcmanfm-qt lxqt-build-tools-devel
+pcmanfm-qt menu-cache-devel

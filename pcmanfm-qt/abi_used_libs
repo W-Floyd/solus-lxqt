@@ -4,7 +4,7 @@ libQt5Gui.so.5
 libQt5Widgets.so.5
 libQt5X11Extras.so.5
 libc.so.6
-libfm-qt.so.3
+libfm-qt.so.5
 libfm.so.4
 libgio-2.0.so.0
 libglib-2.0.so.0
