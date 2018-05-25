@@ -1,3 +1,5 @@
-menu-cache libfm-extra
+libfm-qt-devel libfm-devel
 liblxqt-devel libqtxdg-devel
 liblxqt-devel liblxqt
+menu-cache-devel menu-cache
+menu-cache libfm-extra

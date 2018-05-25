@@ -5,6 +5,6 @@ libQt5Widgets.so.5
 libQt5XdgIconLoader.so.3
 libc.so.6
 libdbusmenu-qt5.so.2
-libfm-qt.so.3
+libfm-qt.so.5
 libgobject-2.0.so.0
 libstdc++.so.6

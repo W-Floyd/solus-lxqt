@@ -28,6 +28,10 @@ lxqt-policykit liblxqt-devel
 lxqt-policykit lxqt-build-tools-devel
 lxqt-powermanagement liblxqt-devel
 lxqt-powermanagement lxqt-build-tools-devel
+lxqt-qtplugin libfm-qt-devel
+lxqt-qtplugin liblxqt-devel
+lxqt-qtplugin menu-cache-devel
+lxqt-qtplugin lxqt-build-tools-devel
 lxqt-sudo liblxqt-devel
 lxqt-sudo lxqt-build-tools-devel
 menu-cache libfm-extra-devel
