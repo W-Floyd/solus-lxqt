@@ -48,7 +48,7 @@ __check_checked () {
 __copy_to_cache () {
 echo "Copying '${1}' to cache."
 if __check_built "${1}"; then
-    cd "${1}"
+    cd "$(sed 's/-devel$//' <<< "${1}")"
     cp *.eopkg /var/lib/solbuild/local/
     cd ../
 else
@@ -98,7 +98,7 @@ rm -f /var/lib/solbuild/local/*.eopkg
 
 __recurse_build_rundeps "${1}"
 
-__list_build_deps "${1}" | sed 's/.* //' | while read -r __package; do
+__list_build_deps --true "${1}" | sed 's/.* //' | while read -r __package; do
     
     if ! __check_checked "${__package}"; then
     
@@ -126,7 +126,7 @@ __list_build_deps "${1}" | sed 's/.* //' | while read -r __package; do
     
 done || exit 1
 
-__list_build_deps "${1}" | sed 's/.* //' | while read -r __package; do
+__list_build_deps --true "${1}" | sed 's/.* //' | while read -r __package; do
 
     __copy_to_cache "${__package}" || exit 1
 
@@ -146,7 +146,7 @@ else
     
     echo "Building package '${1}'"
     
-    __build_deps="$(__list_build_deps "${1}")"
+    __build_deps="$(__list_build_deps --true "${1}")"
     
     cd "${1}"
     
