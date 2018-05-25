@@ -1,8 +1,8 @@
 name       : lxqt-notificationd
-version    : 0.12.0
-release    : 1
+version    : 0.13.0
+release    : 2
 source     :
-    - https://github.com/lxde/lxqt-notificationd/archive/0.12.0.tar.gz : 66a9a1e3f5e21cca56c232dc42059144d91cfee6cde190f1c1046bf6a0264236
+    - git|https://github.com/lxde/lxqt-notificationd.git : 0.13.0
 license    : LGPL-2.1
 component  : desktop.lxqt.core
 summary    : The LXQt notification daemon.
