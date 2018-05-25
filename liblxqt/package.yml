@@ -1,8 +1,8 @@
 name       : liblxqt
-version    : 0.12.0
-release    : 1
+version    : 0.13.0
+release    : 2
 source     :
-    - https://github.com/lxde/liblxqt/archive/0.12.0.tar.gz : a742a1cdf4e8230942fdaa1bdb69d9183115328ac9a317b72bf5a62b82653fc4
+    - git|https://github.com/lxde/liblxqt.git : 0.13.0
 license    : LGPL-2.1
 component  : desktop.lxqt.core
 summary    : Core utility library for all LXQt components.
@@ -13,6 +13,7 @@ builddeps  :
     - lxqt-build-tools-devel
     - lxqt-l10n
     - pkgconfig(gl)
+    - pkgconfig(polkit-qt5-1)
     - pkgconfig(Qt5Core)
     - pkgconfig(Qt5UiTools)
     - pkgconfig(Qt5X11Extras)
