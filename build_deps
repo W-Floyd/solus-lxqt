@@ -32,6 +32,10 @@ lxqt-qtplugin libfm-qt-devel
 lxqt-qtplugin liblxqt-devel
 lxqt-qtplugin menu-cache-devel
 lxqt-qtplugin lxqt-build-tools-devel
+lxqt-runner liblxqt-devel
+lxqt-runner lxqt-globalkeys-devel
+lxqt-runner menu-cache-devel
+lxqt-runner lxqt-build-tools-devel
 lxqt-sudo liblxqt-devel
 lxqt-sudo lxqt-build-tools-devel
 menu-cache libfm-extra-devel
