@@ -1,0 +1,9 @@
+libfm menu-cache-devel
+libfm-qt libfm
+libfm-qt menu-cache
+libfm-qt lxqt-build-tools-devel
+liblxqt lxqt-build-tools-devel
+liblxqt lxqt-l10n
+liblxqt libqtxdg
+lxqt-l10n lxqt-build-tools-devel
+menu-cache libfm-extra-devel
