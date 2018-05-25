@@ -1,8 +1,8 @@
 name       : lxqt-openssh-askpass
-version    : 0.12.0
-release    : 1
+version    : 0.13.0
+release    : 2
 source     :
-    - https://github.com/lxde/lxqt-openssh-askpass/archive/0.12.0.tar.gz : e5efdba3ac7b27a1a8ce49fb2cc5a7a1517c294a86050e143cb2cd6cbd2b5132
+    - git|https://github.com/lxde/lxqt-openssh-askpass.git : 0.13.0
 license    : LGPL-2.1
 component  : desktop.lxqt.core
 summary    : GUI to query passwords on behalf of SSH agents.
