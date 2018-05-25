@@ -5,6 +5,7 @@ libfm-qt lxqt-build-tools-devel
 liblxqt lxqt-build-tools-devel
 liblxqt lxqt-l10n
 liblxqt libqtxdg
+libsysstat lxqt-build-tools-devel
 lxqt-l10n lxqt-build-tools-devel
 lxqt-sudo liblxqt-devel
 lxqt-sudo lxqt-build-tools-devel
