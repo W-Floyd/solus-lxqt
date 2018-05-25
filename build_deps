@@ -19,6 +19,11 @@ lxqt-notificationd liblxqt-devel
 lxqt-notificationd lxqt-build-tools-devel
 lxqt-openssh-askpass liblxqt-devel
 lxqt-openssh-askpass lxqt-build-tools-devel
+lxqt-panel liblxqt-devel
+lxqt-panel libstatgrab-devel
+lxqt-panel libsysstat-devel
+lxqt-panel lxqt-build-tools-devel
+lxqt-panel lxqt-globalkeys-devel
 lxqt-sudo liblxqt-devel
 lxqt-sudo lxqt-build-tools-devel
 menu-cache libfm-extra-devel
