@@ -1,8 +1,8 @@
 name       : lxqt-globalkeys
-version    : 0.12.0
-release    : 1
+version    : 0.13.0
+release    : 2
 source     :
-    - https://github.com/lxde/lxqt-globalkeys/archive/0.12.0.tar.gz : cd4322fc4e38dda4d1a205937311529be284a8035b3f254770905117c574f200
+    - git|https://github.com/lxde/lxqt-globalkeys.git : 0.13.0
 license    : LGPL-2.1
 component  : desktop.lxqt.core
 summary    : Daemon used to register global keyboard shortcuts

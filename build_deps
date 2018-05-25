@@ -12,6 +12,8 @@ lxqt-admin liblxqt-devel
 lxqt-admin lxqt-build-tools-devel
 lxqt-config liblxqt-devel
 lxqt-config lxqt-build-tools-devel
+lxqt-globalkeys liblxqt-devel
+lxqt-globalkeys lxqt-build-tools-devel
 lxqt-l10n lxqt-build-tools-devel
 lxqt-sudo liblxqt-devel
 lxqt-sudo lxqt-build-tools-devel
