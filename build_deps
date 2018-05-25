@@ -40,4 +40,5 @@ lxqt-session liblxqt-devel
 lxqt-session lxqt-build-tools-devel
 lxqt-sudo liblxqt-devel
 lxqt-sudo lxqt-build-tools-devel
+lxqt-themes lxqt-build-tools-devel
 menu-cache libfm-extra-devel
