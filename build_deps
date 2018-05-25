@@ -1,10 +1,10 @@
 libfm menu-cache-devel
 libfm-qt libfm
-libfm-qt menu-cache
 libfm-qt lxqt-build-tools-devel
+libfm-qt menu-cache
+liblxqt libqtxdg
 liblxqt lxqt-build-tools-devel
 liblxqt lxqt-l10n
-liblxqt libqtxdg
 libsysstat lxqt-build-tools-devel
 lxqt-about liblxqt-devel
 lxqt-about lxqt-build-tools-devel
@@ -30,12 +30,12 @@ lxqt-powermanagement liblxqt-devel
 lxqt-powermanagement lxqt-build-tools-devel
 lxqt-qtplugin libfm-qt-devel
 lxqt-qtplugin liblxqt-devel
-lxqt-qtplugin menu-cache-devel
 lxqt-qtplugin lxqt-build-tools-devel
+lxqt-qtplugin menu-cache-devel
 lxqt-runner liblxqt-devel
+lxqt-runner lxqt-build-tools-devel
 lxqt-runner lxqt-globalkeys-devel
 lxqt-runner menu-cache-devel
-lxqt-runner lxqt-build-tools-devel
 lxqt-sudo liblxqt-devel
 lxqt-sudo lxqt-build-tools-devel
 menu-cache libfm-extra-devel
