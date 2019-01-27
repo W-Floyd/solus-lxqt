@@ -2,3 +2,7 @@
 *.eopkg
 /graph.dot
 *.tar.gz
+/common/
+/.tmp/
+/.bin/
+/.rundeps/
