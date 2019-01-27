@@ -2,8 +2,8 @@
     <Source>
         <Name>adapta-gtk-theme</Name>
         <Packager>
-            <Name>William Floyd</Name>
-            <Email>william.png2000@gmail.com</Email>
+            <Name>Jarno Turkki</Name>
+            <Email>watpi@posteo.net</Email>
         </Packager>
         <License>GPL-2.0</License>
         <PartOf>desktop.theme</PartOf>
@@ -19,7 +19,6 @@
 </Description>
         <PartOf>desktop.theme</PartOf>
         <Files>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/chrome</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/calendar-arrow-left-hover.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/calendar-arrow-left.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/calendar-arrow-right-hover.svg</Path>
@@ -31,48 +30,11 @@
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/corner-ripple-ltr.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/corner-ripple-rtl.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dash-placeholder.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running1-bottom-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running1-bottom.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running1-left-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running1-left.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running1-right-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running1-right.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running1-top-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running1-top.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running2-bottom-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running2-bottom.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running2-left-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running2-left.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running2-right-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running2-right.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running2-top-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running2-top.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running3-bottom-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running3-bottom.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running3-left-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running3-left.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running3-right-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running3-right.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running3-top-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running3-top.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running4-bottom-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running4-bottom.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running4-left-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running4-left.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running4-right-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running4-right.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running4-top-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/dot/running4-top.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/go-down.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/go-up.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/media-control-active.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/media-control-hover.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/more-results.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/show-apps-checked.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/show-apps-hover.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/show-apps-panel-hover.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/show-apps-panel.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/show-apps.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/window-close-active.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/window-close-hover.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gnome-shell/assets/window-close.svg</Path>
@@ -149,6 +111,8 @@
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gtk-2.0/Buttons/button-hover.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gtk-2.0/Buttons/button-insensitive.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gtk-2.0/Buttons/button.png</Path>
+            <Path fileType="data">/usr/share/themes/Adapta-Eta/gtk-2.0/Buttons/buttonbox-flat-button-active.png</Path>
+            <Path fileType="data">/usr/share/themes/Adapta-Eta/gtk-2.0/Buttons/buttonbox-flat-button-hover.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gtk-2.0/Buttons/flat-button-active.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gtk-2.0/Buttons/flat-button-hover.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gtk-2.0/Buttons/ltr-button-active.png</Path>
@@ -290,11 +254,14 @@
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gtk-3.22/gtk-dark.css</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gtk-3.22/gtk.css</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/gtk-3.22/gtk.gresource</Path>
+            <Path fileType="data">/usr/share/themes/Adapta-Eta/gtk-3.24/gtk-dark.css</Path>
+            <Path fileType="data">/usr/share/themes/Adapta-Eta/gtk-3.24/gtk.css</Path>
+            <Path fileType="data">/usr/share/themes/Adapta-Eta/gtk-3.24/gtk.gresource</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/index.theme</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/metacity-1</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/plank</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Eta/telegram</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/chrome</Path>
+            <Path fileType="data">/usr/share/themes/Adapta-Eta/tweetdeck</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/calendar-arrow-left-hover.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/calendar-arrow-left.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/calendar-arrow-right-hover.svg</Path>
@@ -306,48 +273,11 @@
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/corner-ripple-ltr.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/corner-ripple-rtl.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dash-placeholder.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running1-bottom-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running1-bottom.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running1-left-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running1-left.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running1-right-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running1-right.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running1-top-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running1-top.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running2-bottom-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running2-bottom.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running2-left-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running2-left.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running2-right-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running2-right.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running2-top-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running2-top.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running3-bottom-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running3-bottom.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running3-left-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running3-left.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running3-right-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running3-right.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running3-top-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running3-top.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running4-bottom-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running4-bottom.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running4-left-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running4-left.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running4-right-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running4-right.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running4-top-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/dot/running4-top.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/go-down.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/go-up.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/media-control-active.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/media-control-hover.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/more-results.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/show-apps-checked.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/show-apps-hover.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/show-apps-panel-hover.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/show-apps-panel.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/show-apps.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/window-close-active.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/window-close-hover.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gnome-shell/assets/window-close.svg</Path>
@@ -420,6 +350,8 @@
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gtk-2.0/Buttons/button-dark.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gtk-2.0/Buttons/button-hover-dark.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gtk-2.0/Buttons/button-insensitive-dark.png</Path>
+            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gtk-2.0/Buttons/buttonbox-flat-button-active-dark.png</Path>
+            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gtk-2.0/Buttons/buttonbox-flat-button-hover-dark.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gtk-2.0/Buttons/flat-button-active-dark.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gtk-2.0/Buttons/flat-button-hover-dark.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gtk-2.0/Buttons/ltr-button-active-dark.png</Path>
@@ -559,11 +491,13 @@
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gtk-3.0/thumbnail.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gtk-3.22/gtk.css</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gtk-3.22/gtk.gresource</Path>
+            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gtk-3.24/gtk.css</Path>
+            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/gtk-3.24/gtk.gresource</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/index.theme</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/metacity-1</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/plank</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/telegram</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/chrome/adapta-nokto-theme.crx</Path>
+            <Path fileType="data">/usr/share/themes/Adapta-Nokto-Eta/tweetdeck</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gedit</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/calendar-arrow-left-hover.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/calendar-arrow-left.svg</Path>
@@ -576,48 +510,11 @@
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/corner-ripple-ltr.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/corner-ripple-rtl.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dash-placeholder.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running1-bottom-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running1-bottom.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running1-left-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running1-left.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running1-right-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running1-right.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running1-top-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running1-top.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running2-bottom-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running2-bottom.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running2-left-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running2-left.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running2-right-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running2-right.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running2-top-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running2-top.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running3-bottom-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running3-bottom.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running3-left-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running3-left.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running3-right-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running3-right.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running3-top-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running3-top.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running4-bottom-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running4-bottom.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running4-left-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running4-left.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running4-right-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running4-right.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running4-top-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/dot/running4-top.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/go-down.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/go-up.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/media-control-active.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/media-control-hover.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/more-results.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/show-apps-checked.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/show-apps-hover.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/show-apps-panel-hover.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/show-apps-panel.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/show-apps.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/window-close-active.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/window-close-hover.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gnome-shell/assets/window-close.svg</Path>
@@ -690,6 +587,8 @@
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gtk-2.0/Buttons/button-dark.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gtk-2.0/Buttons/button-hover-dark.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gtk-2.0/Buttons/button-insensitive-dark.png</Path>
+            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gtk-2.0/Buttons/buttonbox-flat-button-active-dark.png</Path>
+            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gtk-2.0/Buttons/buttonbox-flat-button-hover-dark.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gtk-2.0/Buttons/flat-button-active-dark.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gtk-2.0/Buttons/flat-button-hover-dark.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gtk-2.0/Buttons/ltr-button-active-dark.png</Path>
@@ -829,24 +728,17 @@
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gtk-3.0/thumbnail.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gtk-3.22/gtk.css</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/gtk-3.22/gtk.gresource</Path>
+            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gtk-3.24/gtk.css</Path>
+            <Path fileType="data">/usr/share/themes/Adapta-Nokto/gtk-3.24/gtk.gresource</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/index.theme</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/metacity-1</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/openbox-3/close.xbm</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/openbox-3/desk.xbm</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/openbox-3/desk_toggled.xbm</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/openbox-3/iconify.xbm</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/openbox-3/max.xbm</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/openbox-3/max_toggled.xbm</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/openbox-3/shade.xbm</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/openbox-3/shade_toggled.xbm</Path>
-            <Path fileType="data">/usr/share/themes/Adapta-Nokto/openbox-3/themerc</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/plank</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/telegram/adapta-nokto.tdesktop-theme</Path>
+            <Path fileType="data">/usr/share/themes/Adapta-Nokto/tweetdeck/ColorDeck-adapta-nokto.cdk</Path>
             <Path fileType="data">/usr/share/themes/Adapta-Nokto/xfwm4</Path>
             <Path fileType="data">/usr/share/themes/Adapta/COPYING</Path>
             <Path fileType="data">/usr/share/themes/Adapta/LICENSE_CC_BY_SA4</Path>
             <Path fileType="data">/usr/share/themes/Adapta/README.md</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/chrome/adapta-theme.crx</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gedit/README.md</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gedit/adapta.xml</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/calendar-arrow-left-hover.svg</Path>
@@ -860,48 +752,11 @@
             <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/corner-ripple-ltr.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/corner-ripple-rtl.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dash-placeholder.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running1-bottom-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running1-bottom.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running1-left-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running1-left.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running1-right-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running1-right.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running1-top-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running1-top.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running2-bottom-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running2-bottom.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running2-left-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running2-left.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running2-right-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running2-right.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running2-top-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running2-top.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running3-bottom-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running3-bottom.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running3-left-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running3-left.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running3-right-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running3-right.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running3-top-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running3-top.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running4-bottom-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running4-bottom.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running4-left-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running4-left.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running4-right-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running4-right.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running4-top-focused.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/dot/running4-top.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/go-down.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/go-up.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/media-control-active.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/media-control-hover.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/more-results.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/show-apps-checked.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/show-apps-hover.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/show-apps-panel-hover.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/show-apps-panel.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/show-apps.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/window-close-active.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/window-close-hover.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gnome-shell/assets/window-close.svg</Path>
@@ -978,6 +833,8 @@
             <Path fileType="data">/usr/share/themes/Adapta/gtk-2.0/Buttons/button-hover.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gtk-2.0/Buttons/button-insensitive.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gtk-2.0/Buttons/button.png</Path>
+            <Path fileType="data">/usr/share/themes/Adapta/gtk-2.0/Buttons/buttonbox-flat-button-active.png</Path>
+            <Path fileType="data">/usr/share/themes/Adapta/gtk-2.0/Buttons/buttonbox-flat-button-hover.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gtk-2.0/Buttons/flat-button-active.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gtk-2.0/Buttons/flat-button-hover.png</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gtk-2.0/Buttons/ltr-button-active.png</Path>
@@ -1119,11 +976,13 @@
             <Path fileType="data">/usr/share/themes/Adapta/gtk-3.22/gtk-dark.css</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gtk-3.22/gtk.css</Path>
             <Path fileType="data">/usr/share/themes/Adapta/gtk-3.22/gtk.gresource</Path>
+            <Path fileType="data">/usr/share/themes/Adapta/gtk-3.24/gtk-dark.css</Path>
+            <Path fileType="data">/usr/share/themes/Adapta/gtk-3.24/gtk.css</Path>
+            <Path fileType="data">/usr/share/themes/Adapta/gtk-3.24/gtk.gresource</Path>
             <Path fileType="data">/usr/share/themes/Adapta/index.theme</Path>
             <Path fileType="data">/usr/share/themes/Adapta/metacity-1/button_close.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta/metacity-1/button_close_prelight.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta/metacity-1/button_close_pressed.svg</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/metacity-1/button_fill.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta/metacity-1/button_maximize.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta/metacity-1/button_maximize_prelight.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta/metacity-1/button_maximize_pressed.svg</Path>
@@ -1145,18 +1004,9 @@
             <Path fileType="data">/usr/share/themes/Adapta/metacity-1/metacity-theme-2.xml</Path>
             <Path fileType="data">/usr/share/themes/Adapta/metacity-1/metacity-theme-3.xml</Path>
             <Path fileType="data">/usr/share/themes/Adapta/metacity-1/thumbnail.png</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/openbox-3/close.xbm</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/openbox-3/compton.conf</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/openbox-3/desk.xbm</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/openbox-3/desk_toggled.xbm</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/openbox-3/iconify.xbm</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/openbox-3/max.xbm</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/openbox-3/max_toggled.xbm</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/openbox-3/shade.xbm</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/openbox-3/shade_toggled.xbm</Path>
-            <Path fileType="data">/usr/share/themes/Adapta/openbox-3/themerc</Path>
             <Path fileType="data">/usr/share/themes/Adapta/plank/dock.theme</Path>
             <Path fileType="data">/usr/share/themes/Adapta/telegram/adapta.tdesktop-theme</Path>
+            <Path fileType="data">/usr/share/themes/Adapta/tweetdeck/ColorDeck-adapta.cdk</Path>
             <Path fileType="data">/usr/share/themes/Adapta/xfce-notify-4.0/flat-button-active.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta/xfce-notify-4.0/flat-button-hover.svg</Path>
             <Path fileType="data">/usr/share/themes/Adapta/xfce-notify-4.0/flat-button-insensitive.svg</Path>
@@ -1230,12 +1080,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="147">
-            <Date>2018-03-03</Date>
-            <Version>3.93.0.153</Version>
+        <Update release="180">
+            <Date>2018-10-15</Date>
+            <Version>3.94.0.149</Version>
             <Comment>Packaging update</Comment>
-            <Name>William Floyd</Name>
-            <Email>william.png2000@gmail.com</Email>
+            <Name>Jarno Turkki</Name>
+            <Email>watpi@posteo.net</Email>
         </Update>
     </History>
 </PISI>

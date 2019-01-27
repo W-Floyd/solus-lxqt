@@ -1,8 +1,8 @@
 name       : adapta-gtk-theme
-version    : 3.93.0.153
-release    : 147
+version    : 3.94.0.149
+release    : 180
 source     :
-    - https://github.com/adapta-project/adapta-gtk-theme/archive/3.93.0.153.tar.gz : 1c743a31cc731f0a6dfe0bdc9a1e8e7f06b167f3577f3669b4186b45e183a0a5
+    - https://github.com/adapta-project/adapta-gtk-theme/archive/3.94.0.149.tar.gz : db69ef4e2de34d125b8a05fcd8881fc6d54fa7c4c194cadf69200760ed940cac
 license    : GPL-2.0
 component  : desktop.theme
 summary    : Adapta theme
@@ -16,18 +16,21 @@ builddeps  :
 rundeps    :
     - noto-sans-ttf
 setup      : |
-    %patch -p1 < $pkgfiles/parallel.patch
+    %patch -p1 < $pkgfiles/apply-branding.patch
     %autogen \
         --enable-chrome \
         --enable-plank \
         --enable-telegram \
+        --enable-tweetdeck \
         --disable-cinnamon \
         --disable-gtk_legacy \
         --disable-gtk_next \
         --disable-unity \
-        --disable-parallel
+        --with-selection_color=#5294e2 \
+        --with-accent_color=#84beea \
+        --with-suggestion_color=#4fa2e1 \
+        --with-destruction_color=#f05f7e
 build      : |
-    make -j1
+    %make
 install    : |
-    themeLocation=$installdir/usr/share/themes/Adapta
-    make install -j1 DESTDIR=$installdir
+    %make_install
