@@ -1,2 +1,9 @@
 pkgconfig(Qt5Xdg) libqtxdg-devel
 pkgconfig(lxqt) liblxqt-devel
+pkgconfig(libmenu-cache) menu-cache-devel
+pkgconfig(libfm-extra) libfm-extra-devel
+pkgconfig(lxqt-globalkeys) lxqt-globalkeys-devel
+pkgconfig(libfm-qt) libfm-qt-devel
+pkgconfig(libfm) libfm-devel
+pkgconfig(sysstat-qt5) libsysstat-devel
+pkgconfig(libstatgrab) libstatgrab-devel
