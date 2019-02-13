@@ -19,7 +19,8 @@
 </Description>
         <PartOf>programming.library</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/lib*.so.*</Path>
+            <Path fileType="library">/usr/lib64/libmenu-cache.so.3</Path>
+            <Path fileType="library">/usr/lib64/libmenu-cache.so.3.2.0</Path>
             <Path fileType="library">/usr/lib64/menu-cache/menu-cache/menu-cache-gen</Path>
             <Path fileType="library">/usr/lib64/menu-cache/menu-cache/menu-cached</Path>
         </Files>
@@ -34,15 +35,15 @@
             <Dependency release="2">menu-cache</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="header">/usr/include/</Path>
-            <Path fileType="library">/usr/lib64/lib*.a</Path>
-            <Path fileType="library">/usr/lib64/lib*.so</Path>
-            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
+            <Path fileType="header">/usr/include/menu-cache/menu-cache.h</Path>
+            <Path fileType="library">/usr/lib64/libmenu-cache.a</Path>
+            <Path fileType="library">/usr/lib64/libmenu-cache.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/libmenu-cache.pc</Path>
         </Files>
     </Package>
     <History>
         <Update release="2">
-            <Date>2018-05-23</Date>
+            <Date>2019-02-13</Date>
             <Version>1.1.0</Version>
             <Comment>Packaging update</Comment>
             <Name>William Floyd</Name>
