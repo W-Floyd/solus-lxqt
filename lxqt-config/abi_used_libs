@@ -9,9 +9,11 @@ libQt5Xml.so.5
 libX11.so.6
 libXcursor.so.1
 libXfixes.so.3
+libXi.so.6
 libc.so.6
 liblxqt.so.0
 libstdc++.so.6
+libudev.so.1
 libxcb-randr.so.0
 libxcb.so.1
 libz.so.1

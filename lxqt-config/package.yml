@@ -1,8 +1,8 @@
 name       : lxqt-config
-version    : 0.13.0
-release    : 2
+version    : 0.14.0
+release    : 3
 source     :
-    - git|https://github.com/lxde/lxqt-config.git : 0.13.0
+    - git|https://github.com/lxde/lxqt-config.git : 0.14.0
 license    : LGPL-2.1
 component  : desktop.lxqt.core
 summary    : Tools to configure LXQt and the underlying operating system.
@@ -13,21 +13,16 @@ builddeps  :
     - lxqt-build-tools-devel
     - pkgconfig(gl)
     - pkgconfig(kscreen2)
+    - pkgconfig(xorg-libinput)
     - pkgconfig(lxqt)
     - pkgconfig(Qt5UiTools)
     - pkgconfig(Qt5Widgets)
     - pkgconfig(Qt5X11Extras)
     - pkgconfig(xcursor)
+    - pkgconfig(xi)
 setup      : |
-    mkdir build
-    pushd build
-    %cmake -DPULL_TRANSLATIONS=false ..
-    popd
+    %cmake_ninja
 build      : |
-    pushd build
-    %make
-    popd
+    %ninja_build
 install    : |
-    pushd build
-    %make_install
-    popd
+    %ninja_install
