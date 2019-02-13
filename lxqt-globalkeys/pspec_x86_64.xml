@@ -21,9 +21,47 @@
         <Files>
             <Path fileType="config">/etc/xdg/autostart/lxqt-globalkeyshortcuts.desktop</Path>
             <Path fileType="config">/etc/xdg/lxqt/globalkeyshortcuts.conf</Path>
-            <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib64/lib*.so.*</Path>
+            <Path fileType="executable">/usr/bin/lxqt-config-globalkeyshortcuts</Path>
+            <Path fileType="executable">/usr/bin/lxqt-globalkeysd</Path>
+            <Path fileType="library">/usr/lib64/liblxqt-globalkeys-ui.so.0</Path>
+            <Path fileType="library">/usr/lib64/liblxqt-globalkeys-ui.so.0.14.0</Path>
+            <Path fileType="library">/usr/lib64/liblxqt-globalkeys.so.0</Path>
+            <Path fileType="library">/usr/lib64/liblxqt-globalkeys.so.0.14.0</Path>
             <Path fileType="data">/usr/share/applications/lxqt-config-globalkeyshortcuts.desktop</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_ar.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_ca.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_cs.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_cy.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_da.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_de.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_el.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_eo.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_es.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_es_VE.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_eu.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_fi.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_fr.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_gl.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_he.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_hu.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_id.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_it.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_ja.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_lt.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_lv.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_nb_NO.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_nl.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_pl.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_pt.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_pt_BR.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_ro_RO.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_ru.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_sl.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_th_TH.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_tr.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_uk.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_zh_CN.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-config-globalkeyshortcuts/lxqt-config-globalkeyshortcuts_zh_TW.qm</Path>
         </Files>
     </Package>
     <Package>
@@ -33,19 +71,37 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="2">lxqt-globalkeys</Dependency>
+            <Dependency release="3">lxqt-globalkeys</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="header">/usr/include/</Path>
-            <Path fileType="library">/usr/lib64/lib*.so</Path>
-            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
-            <Path fileType="data">/usr/share/cmake/</Path>
+            <Path fileType="header">/usr/include/lxqt-globalkeys-ui/LXQtGlobalKeysUi/ShortcutSelector</Path>
+            <Path fileType="header">/usr/include/lxqt-globalkeys-ui/shortcut_selector.h</Path>
+            <Path fileType="header">/usr/include/lxqt-globalkeys-ui/shortcutselector.h</Path>
+            <Path fileType="header">/usr/include/lxqt-globalkeys/LXQtGlobalKeys/Action</Path>
+            <Path fileType="header">/usr/include/lxqt-globalkeys/LXQtGlobalKeys/Client</Path>
+            <Path fileType="header">/usr/include/lxqt-globalkeys/LXQtGlobalKeys/LXQtGlobalKeys</Path>
+            <Path fileType="header">/usr/include/lxqt-globalkeys/action.h</Path>
+            <Path fileType="header">/usr/include/lxqt-globalkeys/client.h</Path>
+            <Path fileType="header">/usr/include/lxqt-globalkeys/lxqt-globalkeys.h</Path>
+            <Path fileType="header">/usr/include/lxqt-globalkeys/lxqtglobalkeys.h</Path>
+            <Path fileType="library">/usr/lib64/liblxqt-globalkeys-ui.so</Path>
+            <Path fileType="library">/usr/lib64/liblxqt-globalkeys.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/lxqt-globalkeys-ui.pc</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/lxqt-globalkeys.pc</Path>
+            <Path fileType="data">/usr/share/cmake/lxqt-globalkeys-ui/lxqt-globalkeys-ui-config-version.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/lxqt-globalkeys-ui/lxqt-globalkeys-ui-config.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/lxqt-globalkeys-ui/lxqt-globalkeys-ui-targets-relwithdebinfo.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/lxqt-globalkeys-ui/lxqt-globalkeys-ui-targets.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/lxqt-globalkeys/lxqt-globalkeys-config-version.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/lxqt-globalkeys/lxqt-globalkeys-config.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/lxqt-globalkeys/lxqt-globalkeys-targets-relwithdebinfo.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/lxqt-globalkeys/lxqt-globalkeys-targets.cmake</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-05-25</Date>
-            <Version>0.13.0</Version>
+        <Update release="3">
+            <Date>2019-02-13</Date>
+            <Version>0.14.0</Version>
             <Comment>Packaging update</Comment>
             <Name>William Floyd</Name>
             <Email>william.png2000@gmail.com</Email>
