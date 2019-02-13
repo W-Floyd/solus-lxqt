@@ -1,8 +1,8 @@
 name       : libfm-qt
-version    : 0.13.0
-release    : 2
+version    : 0.14.0
+release    : 3
 source     :
-    - git|https://github.com/lxde/libfm-qt.git : 0.13.0
+    - git|https://github.com/lxde/libfm-qt.git : 0.14.0
 license    : LGPL-2.1
 component  : desktop.lxqt.core
 summary    : Core library of PCManFM-Qt (Qt binding for libfm).
@@ -18,15 +18,8 @@ builddeps  :
     - pkgconfig(Qt5Widgets)
     - pkgconfig(Qt5X11Extras)
 setup      : |
-    mkdir build
-    pushd build
-    %cmake -DPULL_TRANSLATIONS=false ..
-    popd
+    %cmake_ninja
 build      : |
-    pushd build
-    %make
-    popd
+    %ninja_build
 install    : |
-    pushd build
-    %make_install
-    popd
+    %ninja_install

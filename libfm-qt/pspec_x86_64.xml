@@ -19,8 +19,36 @@
 </Description>
         <PartOf>desktop.lxqt.core</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/lib*.so.*</Path>
-            <Path fileType="data">/usr/share/libfm-qt</Path>
+            <Path fileType="library">/usr/lib64/libfm-qt.so.6</Path>
+            <Path fileType="library">/usr/lib64/libfm-qt.so.6.0.0</Path>
+            <Path fileType="data">/usr/share/libfm-qt/archivers.list</Path>
+            <Path fileType="data">/usr/share/libfm-qt/terminals.list</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_ar.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_ca.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_cs.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_cy.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_da.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_de.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_el.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_es.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_fr.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_gl.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_he.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_hu.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_id.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_it.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_ja.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_lt.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_nb_NO.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_nl.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_pl.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_pt.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_pt_BR.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_ru.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_tr.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_uk.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_zh_CN.qm</Path>
+            <Path fileType="data">/usr/share/libfm-qt/translations/libfm-qt_zh_TW.qm</Path>
             <Path fileType="data">/usr/share/mime/packages/libfm-qt-mimetypes.xml</Path>
         </Files>
     </Package>
@@ -31,19 +59,121 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="2">libfm-qt</Dependency>
+            <Dependency release="3">libfm-qt</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="header">/usr/include/</Path>
-            <Path fileType="library">/usr/lib64/lib*.so</Path>
-            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
-            <Path fileType="data">/usr/share/cmake/</Path>
+            <Path fileType="header">/usr/include/libfm-qt/appchoosercombobox.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/appchooserdialog.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/applaunchcontext.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/appmenuview.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/appmenuview_p.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/bookmarkaction.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/browsehistory.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/cachedfoldermodel.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/colorbutton.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/archiver.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/basicfilelauncher.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/bookmarks.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/cstrptr.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/deletejob.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/dirlistjob.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/filechangeattrjob.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/fileinfo.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/fileinfo_p.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/fileinfojob.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/filelinkjob.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/filemonitor.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/fileoperationjob.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/filepath.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/filesysteminfojob.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/filetransferjob.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/folder.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/folderconfig.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/gioptrs.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/gobjectptr.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/iconinfo.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/iconinfo_p.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/job.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/job_p.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/legacy/fm-app-info.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/legacy/fm-config.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/legacy/glib-compat.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/mimetype.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/templates.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/terminal.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/thumbnailer.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/thumbnailjob.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/totalsizejob.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/trashjob.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/untrashjob.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/userinfocache.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/vfs/fm-file.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/vfs/fm-xml-file.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/core/volumemanager.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/createnewmenu.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/customaction_p.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/customactions/fileaction.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/customactions/fileactioncondition.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/customactions/fileactionprofile.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/dirtreemodel.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/dirtreemodelitem.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/dirtreeview.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/dndactionmenu.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/dnddest.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/editbookmarksdialog.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/execfiledialog_p.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/filedialog.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/filedialoghelper.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/filelauncher.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/filemenu.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/filemenu_p.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/fileoperation.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/fileoperationdialog.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/fileoperationdialog_p.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/filepropsdialog.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/filesearchdialog.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/fm-qt_export.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/fm-search.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/folderitemdelegate.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/foldermenu.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/foldermodel.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/foldermodelitem.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/folderview.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/folderview_p.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/fontbutton.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/libfmqt.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/libfmqtglobals.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/mountoperation.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/mountoperationpassworddialog_p.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/mountoperationquestiondialog_p.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/pathbar.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/pathbar_p.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/pathedit.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/pathedit_p.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/placesmodel.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/placesmodelitem.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/placesview.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/proxyfoldermodel.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/renamedialog.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/sidepane.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/tests</Path>
+            <Path fileType="header">/usr/include/libfm-qt/translations</Path>
+            <Path fileType="header">/usr/include/libfm-qt/utilities.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/utilities_p.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/utils.h</Path>
+            <Path fileType="header">/usr/include/libfm-qt/xdndworkaround.h</Path>
+            <Path fileType="library">/usr/lib64/libfm-qt.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/libfm-qt.pc</Path>
+            <Path fileType="data">/usr/share/cmake/fm-qt/fm-qt-config-version.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/fm-qt/fm-qt-config.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/fm-qt/fm-qt-targets-relwithdebinfo.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/fm-qt/fm-qt-targets.cmake</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-05-23</Date>
-            <Version>0.13.0</Version>
+        <Update release="3">
+            <Date>2019-02-13</Date>
+            <Version>0.14.0</Version>
             <Comment>Packaging update</Comment>
             <Name>William Floyd</Name>
             <Email>william.png2000@gmail.com</Email>
