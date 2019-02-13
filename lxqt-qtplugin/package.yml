@@ -1,8 +1,8 @@
 name       : lxqt-qtplugin
-version    : 0.13.0
-release    : 2
+version    : 0.14.0
+release    : 4
 source     :
-    - git|https://github.com/lxde/lxqt-qtplugin.git : 0.13.0
+    - git|https://github.com/lxde/lxqt-qtplugin.git : 0.14.0
 license    : LGPL-2.1
 component  : desktop.lxqt.core
 summary    : LXQt Qt platform integration plugin.
@@ -20,15 +20,8 @@ builddeps  :
     - pkgconfig(Qt5DBus)
     - pkgconfig(Qt5UiTools)
 setup      : |
-    mkdir build
-    pushd build
-    %cmake -DPULL_TRANSLATIONS=false ..
-    popd
+    %cmake_ninja
 build      : |
-    pushd build
-    %make
-    popd
+    %ninja_build
 install    : |
-    pushd build
-    %make_install
-    popd
+    %ninja_install
