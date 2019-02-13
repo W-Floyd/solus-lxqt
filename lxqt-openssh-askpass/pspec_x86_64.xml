@@ -19,13 +19,38 @@
 </Description>
         <PartOf>desktop.lxqt.core</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/lxqt-openssh-askpass</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_ar.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_ca.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_cs.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_cy.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_da.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_de.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_el.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_es.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_fr.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_gl.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_he.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_hu.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_id.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_it.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_ja.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_lt.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_nb_NO.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_nl.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_pl.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_pt.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_ru.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_tr.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_uk.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-openssh-askpass/lxqt-openssh-askpass_zh_CN.qm</Path>
+            <Path fileType="man">/usr/share/man/man1/lxqt-openssh-askpass.1</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-05-25</Date>
-            <Version>0.13.0</Version>
+        <Update release="3">
+            <Date>2019-02-13</Date>
+            <Version>0.14.0</Version>
             <Comment>Packaging update</Comment>
             <Name>William Floyd</Name>
             <Email>william.png2000@gmail.com</Email>
