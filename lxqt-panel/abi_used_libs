@@ -19,7 +19,7 @@ liblxqt-globalkeys.so.0
 liblxqt.so.0
 libm.so.6
 libpulse.so.0
-libsensors.so.4
+libsensors.so.5
 libstatgrab.so.10
 libstdc++.so.6
 libsysstat-qt5.so.0
