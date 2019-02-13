@@ -19,9 +19,49 @@
 </Description>
         <PartOf>desktop.lxqt.core</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib64/lib*.so.*</Path>
+            <Path fileType="executable">/usr/bin/lxqt-backlight_backend</Path>
+            <Path fileType="library">/usr/lib64/liblxqt.so.0</Path>
+            <Path fileType="library">/usr/lib64/liblxqt.so.0.14.0</Path>
             <Path fileType="data">/usr/share/lxqt/power.conf</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_ar.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_ca.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_cs.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_cy.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_da.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_de.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_el.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_eo.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_es.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_es_VE.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_eu.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_fi.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_fr.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_gl.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_he.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_hu.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_ia.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_id.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_it.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_ja.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_ko.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_lt.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_lv.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_nb_NO.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_nl.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_pl.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_pt.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_pt_BR.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_ro_RO.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_ru.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_sk_SK.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_sl.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_sr@latin.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_sr_RS.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_th_TH.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_tr.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_uk.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_zh_CN.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/liblxqt/liblxqt_zh_TW.qm</Path>
             <Path fileType="data">/usr/share/polkit-1/actions/org.lxqt.backlight.pkexec.policy</Path>
         </Files>
     </Package>
@@ -32,19 +72,59 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="2">liblxqt</Dependency>
+            <Dependency release="3">liblxqt</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="header">/usr/include/</Path>
-            <Path fileType="library">/usr/lib64/lib*.so</Path>
-            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
-            <Path fileType="data">/usr/share/cmake/</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/Application</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/AutostartEntry</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/Backlight</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/ConfigDialog</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/ConfigDialogCmdLineOptions</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/Globals</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/GridLayout</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/HtmlDelegate</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/Notification</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/PageSelectWidget</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/PluginInfo</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/Power</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/PowerManager</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/ProgramFinder</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/RotatedWidget</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/ScreenSaver</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/Settings</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/SingleApplication</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/Translator</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqtapplication.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqtautostartentry.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqtbacklight.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqtconfigdialog.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqtconfigdialogcmdlineoptions.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqtglobals.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqtgridlayout.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqthtmldelegate.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqtnotification.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqtpageselectwidget.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqtplugininfo.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqtpower.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqtpowermanager.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqtprogramfinder.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqtrotatedwidget.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqtscreensaver.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqtsettings.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqtsingleapplication.h</Path>
+            <Path fileType="header">/usr/include/lxqt/LXQt/lxqttranslator.h</Path>
+            <Path fileType="library">/usr/lib64/liblxqt.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/lxqt.pc</Path>
+            <Path fileType="data">/usr/share/cmake/lxqt/lxqt-config-version.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/lxqt/lxqt-config.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/lxqt/lxqt-targets-relwithdebinfo.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/lxqt/lxqt-targets.cmake</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-05-25</Date>
-            <Version>0.13.0</Version>
+        <Update release="3">
+            <Date>2019-02-13</Date>
+            <Version>0.14.0</Version>
             <Comment>Packaging update</Comment>
             <Name>William Floyd</Name>
             <Email>william.png2000@gmail.com</Email>
