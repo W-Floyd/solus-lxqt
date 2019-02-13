@@ -1,8 +1,8 @@
 name       : libsysstat
-version    : 0.4.1
-release    : 2
+version    : 0.4.2
+release    : 3
 source     :
-    - git|https://github.com/lxde/libsysstat.git : 0.4.1
+    - git|https://github.com/lxde/libsysstat.git : 0.4.2
 license    : LGPL-2.1
 component  : system.utils
 summary    : Library used to query system info and statistics.
@@ -12,15 +12,8 @@ builddeps  :
     - lxqt-build-tools-devel
     - pkgconfig(Qt5Core)
 setup      : |
-    mkdir build
-    pushd build
-    %cmake ..
-    popd
+    %cmake_ninja
 build      : |
-    pushd build
-    %make
-    popd
+    %ninja_build
 install    : |
-    pushd build
-    %make_install
-    popd
+    %ninja_install

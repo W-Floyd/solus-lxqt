@@ -19,7 +19,8 @@
 </Description>
         <PartOf>system.utils</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/lib*.so.*</Path>
+            <Path fileType="library">/usr/lib64/libsysstat-qt5.so.0</Path>
+            <Path fileType="library">/usr/lib64/libsysstat-qt5.so.0.4.2</Path>
         </Files>
     </Package>
     <Package>
@@ -29,19 +30,33 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="2">libsysstat</Dependency>
+            <Dependency release="3">libsysstat</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="header">/usr/include/</Path>
-            <Path fileType="library">/usr/lib64/lib*.so</Path>
-            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
-            <Path fileType="data">/usr/share/cmake/</Path>
+            <Path fileType="header">/usr/include/sysstat-qt5/SysStat/BaseStat</Path>
+            <Path fileType="header">/usr/include/sysstat-qt5/SysStat/CpuStat</Path>
+            <Path fileType="header">/usr/include/sysstat-qt5/SysStat/Global</Path>
+            <Path fileType="header">/usr/include/sysstat-qt5/SysStat/MemStat</Path>
+            <Path fileType="header">/usr/include/sysstat-qt5/SysStat/NetStat</Path>
+            <Path fileType="header">/usr/include/sysstat-qt5/SysStat/Version</Path>
+            <Path fileType="header">/usr/include/sysstat-qt5/basestat.h</Path>
+            <Path fileType="header">/usr/include/sysstat-qt5/cpustat.h</Path>
+            <Path fileType="header">/usr/include/sysstat-qt5/memstat.h</Path>
+            <Path fileType="header">/usr/include/sysstat-qt5/netstat.h</Path>
+            <Path fileType="header">/usr/include/sysstat-qt5/sysstat_global.h</Path>
+            <Path fileType="header">/usr/include/sysstat-qt5/version.h</Path>
+            <Path fileType="library">/usr/lib64/libsysstat-qt5.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/sysstat-qt5.pc</Path>
+            <Path fileType="data">/usr/share/cmake/sysstat-qt5/sysstat-qt5-config-version.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/sysstat-qt5/sysstat-qt5-config.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/sysstat-qt5/sysstat-qt5-targets-relwithdebinfo.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/sysstat-qt5/sysstat-qt5-targets.cmake</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-05-25</Date>
-            <Version>0.4.1</Version>
+        <Update release="3">
+            <Date>2019-02-13</Date>
+            <Version>0.4.2</Version>
             <Comment>Packaging update</Comment>
             <Name>William Floyd</Name>
             <Email>william.png2000@gmail.com</Email>
