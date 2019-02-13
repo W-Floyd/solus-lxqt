@@ -5,10 +5,12 @@ It is not ready - nor intended - for actual use, and it *will not* go into the S
 
 I don't really ever use LXQt, so I'm not the best person to be doing this.
 
-#### Known issues
+#### Known issues (0.13.0)
 * LXQt panel segfaults when attempting to search while icons are broken
 * icons are broken in file managers and panel until you toggle things around a bit in settings?
 * hidpi sucks, and I don't want to break anything on my install just to test things right now
+
+Things seem a bit better with 0.14.0, have no time to test.
 
 ***
 
