@@ -1,8 +1,8 @@
 name       : libfm
-version    : 1.3.0.2
-release    : 2
+version    : 1.3.1
+release    : 3
 source     :
-    - git|https://github.com/lxde/libfm.git : 1.3.0.2
+    - git|https://github.com/lxde/libfm.git : 1.3.1
 license    : GPL-2.0
 component  : desktop.lxqt.core
 summary    : Core library of PCManFM file manager
