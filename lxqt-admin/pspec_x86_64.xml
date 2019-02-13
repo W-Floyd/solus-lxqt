@@ -19,16 +19,72 @@
 </Description>
         <PartOf>desktop.lxqt.core</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/lxqt-admin-time</Path>
+            <Path fileType="executable">/usr/bin/lxqt-admin-user</Path>
+            <Path fileType="executable">/usr/bin/lxqt-admin-user-helper</Path>
             <Path fileType="data">/usr/share/applications/lxqt-admin-time.desktop</Path>
             <Path fileType="data">/usr/share/applications/lxqt-admin-user.desktop</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_ar.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_ca.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_cs.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_cy.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_da.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_de.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_el.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_es.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_fr.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_gl.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_he.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_hr.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_hu.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_id.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_it.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_ja.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_lt.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_lv.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_nb_NO.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_nl.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_pl.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_pt.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_pt_BR.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_ru.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_tr.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_uk.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_zh_CN.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-time/lxqt-admin-time_zh_TW.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_ar.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_ca.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_cs.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_cy.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_da.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_de.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_el.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_es.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_fr.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_gl.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_he.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_hr.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_hu.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_id.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_it.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_ja.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_lt.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_nb_NO.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_nl.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_pl.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_pt.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_pt_BR.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_ru.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_tr.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_uk.qm</Path>
+            <Path fileType="data">/usr/share/lxqt/translations/lxqt-admin-user/lxqt-admin-user_zh_CN.qm</Path>
             <Path fileType="data">/usr/share/polkit-1/actions/org.lxqt.lxqt-admin-user.policy</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-05-25</Date>
-            <Version>0.13.0</Version>
+        <Update release="3">
+            <Date>2019-02-13</Date>
+            <Version>0.14.0</Version>
             <Comment>Packaging update</Comment>
             <Name>William Floyd</Name>
             <Email>william.png2000@gmail.com</Email>
