@@ -1,8 +1,8 @@
 name       : pcmanfm-qt
-version    : 0.13.0
-release    : 2
+version    : 0.14.0
+release    : 4
 source     :
-    - git|https://github.com/lxde/pcmanfm-qt.git : 0.13.0
+    - git|https://github.com/lxde/pcmanfm-qt.git : 0.14.0
 license    : GPL-2.0
 component  : desktop.lxqt.core
 summary    : File manager and desktop icon manager (Qt port of PCManFM and libfm)
@@ -19,15 +19,8 @@ builddeps  :
     - pkgconfig(Qt5Widgets)
     - pkgconfig(Qt5X11Extras)
 setup      : |
-    mkdir build
-    pushd build
-    %cmake -DPULL_TRANSLATIONS=false ..
-    popd
+    %cmake_ninja
 build      : |
-    pushd build
-    %make
-    popd
+    %ninja_build
 install    : |
-    pushd build
-    %make_install
-    popd
+    %ninja_install
